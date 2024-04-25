@@ -13,6 +13,8 @@ export const Buttons = () => {
       </NavLink>
       <NavLink to="/stateComplex"><Button text="Un estado más complejo, depurando aplicaciones React"/></NavLink>
       <NavLink to="/revisionEventos"><Button text="Revision de los Controladores de Eventos" /></NavLink>
+      <NavLink to="/estadisticas"><Button text="Unicafe" /></NavLink>
+      <NavLink to="/anecdotas"><Button text="Anecdotas, paso 1"/></NavLink>
     </>
   );
 };
@@ -20,7 +22,7 @@ export const Buttons = () => {
 const Button = ({ text }) => {
   return (
     <>
-      <p>{text}</p>
+      <button>{text}</button>
     </>
   );
 };

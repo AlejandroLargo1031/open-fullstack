@@ -30,7 +30,7 @@ export const RevisionEventos = () => {
       <div>
         <Display value={value} />
         {value}
-        <Button handleClick={setToValue(1000)} text='thousand'/>
+        <Button handleClick={setToValue(1000)} text='cien'/>
         <Button handleClick={setToValue(0)} text='reset'/>
         <Button handleClick={setToValue(value + 1)} text='increment'/>
       </div>
