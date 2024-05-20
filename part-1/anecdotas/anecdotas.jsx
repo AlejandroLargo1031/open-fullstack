@@ -24,13 +24,13 @@ export const Anecdotas = () => {
   const votesCount = () => {
     const newVotes = [...votes];
     newVotes[selected] += 1;
-    console.log("votos", votes);
+    console.log("votos",  votes);
     return setVote(newVotes);
   };
 
   return (
     <>
-    <h1>Anecdote of the day</h1>
+      <h1>Anecdote of the day</h1>
       <div>{anecdotes[selected]}</div>
       <p>has {votes[selected]} votes</p>
       <div>
